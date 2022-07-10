@@ -1,0 +1,133 @@
+#title{
+  background-color: #f5f7b2;
+}
+.nav-item{
+  margin:0 20px 0 40px;
+  font-weight: 600;
+}
+.container-fluid{
+  padding:15px 150px;
+  font-family: 'Roboto',sans-serif;
+}
+.brand{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#contacts1{
+  padding: 10% 15%;
+}
+p{
+  font-family: 'Roboto',serif;
+  font-size: 20px;
+}
+
+
+.image{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+.c1, .c2{
+  padding: 5%;
+}
+.c1{
+  color: #70AF85;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  color: #70AF85;
+}
+
+/*
+Footer */
+
+footer{
+position: fixed;
+bottom: 0;
+}
+
+@media (max-height:800px){
+footer { position: static; }
+header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+background-color:#f5f7b2 ;
+/* #2c292f */
+box-sizing: border-box;
+width: 100%;
+text-align: center;
+font: bold 16px sans-serif;
+padding: 30px 30px 40px 30px;
+margin-top: 50px;
+}
+
+.footer-distributed .footer-left,
+
+.footer-distributed .footer-right{
+display: inline-block;
+padding: 0 5%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+color:  #2c292f;
+margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+display:inline-block;
+line-height: 1.8;
+text-decoration: none;
+color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+color:  #8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+
+.footer-distributed .footer-company-about{
+line-height: 15px;
+color:  #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+display: block;
+color:  #2c292f;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}

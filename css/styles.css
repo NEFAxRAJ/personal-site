@@ -1,0 +1,206 @@
+/* navbar */
+#title {
+  background-color: #f5f7b2;
+}
+
+.nav-item {
+  margin: 0 20px 0 40px;
+  font-weight: 600;
+}
+
+.container-fluid {
+  padding: 15px 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/*navbar end*/
+/*intro1 start*/
+
+#about{
+  /* background-color: #AEDBCE; */
+  padding-bottom:6%;
+}
+#about p{
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 1.2rem;
+}
+.intro {
+  padding-top: 7.5%;
+  position: relative;
+  z-index: 2;
+}
+
+.web-img {
+  width: 40%;
+  height: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+/*intro1 end*/
+/*intro2 start*/
+#abt2{
+  padding: 2px 0;
+}
+#abt2 p{
+  font-family: 'Fira Sans', sans-serif;
+}
+.intro2 {
+margin-top: 2%;
+  padding-top: 2%;
+background-image: linear-gradient(#BDE6F1, #99ff99);
+z-index: 3;
+position: relative;
+}
+.intro2 h3{
+  text-align: center;
+}
+.intro2 .e{
+  text-align:center;
+  font-style: oblique;
+  font-weight:200;
+
+}
+.backgroundImg{
+    position: absolute;
+   z-index: 1;
+   height: 100%;
+   width: 100%;
+}
+
+.intro2 h3{
+  text-align: center;
+  font-size: 2.15rem;
+}
+.intro2 h6{
+  text-align: center;
+  padding-top: 10px;
+  color: #7D9D9C;
+  font-size: 1.5rem;
+}
+.c1{
+  /* background-color: white; */
+}
+#abt2{
+  background-image: linear-gradient(#BDE6F1, #99ff99);
+}
+hr {
+  margin-top:3%;
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #aad8d3;
+  border-width: 7px;
+  width: 50%;
+}
+.mid{
+  margin: 8px 0;
+  padding: 5% 0;
+}
+.vid{
+  /* padding: 2px; */
+/* margin-right: 1px; */
+text-align: center;
+}
+.vid2{
+  text-align: center;
+}
+
+
+/*intro2 end*/
+
+footer{
+position: fixed;
+bottom: 0;
+}
+
+@media (max-height:800px){
+footer { position: static; }
+header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+background-color:#f5f7b2 ;
+/* #2c292f */
+box-sizing: border-box;
+width: 100%;
+text-align: center;
+font: bold 16px sans-serif;
+padding: 30px 30px 40px 30px;
+margin-top: 50px;
+
+}
+
+.footer-distributed .footer-left,
+
+.footer-distributed .footer-right{
+display: inline-block;
+padding: 0 5%;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+color:  #2c292f;
+margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+display:inline-block;
+line-height: 1.8;
+text-decoration: none;
+color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+color:  #8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+
+.footer-distributed .footer-company-about{
+line-height: 15px;
+color:  #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+display: block;
+color:  #2c292f;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
